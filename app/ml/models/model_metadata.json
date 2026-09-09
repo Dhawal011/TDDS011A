@@ -1,0 +1,21 @@
+{
+    "model_name": "Linear Regression",
+    "problem": "Monthly Blood Demand Forecasting",
+    "evaluation_period": "2019-01-01 to 2020-09-01",
+    "evaluation_training_samples": 47,
+    "evaluation_test_samples": 21,
+    "final_training_samples": 68,
+    "mae": 48.05,
+    "rmse": 58.81,
+    "mape": 15.52,
+    "features": [
+        "LAG_1",
+        "LAG_2",
+        "LAG_3",
+        "ROLLING_MEAN_3",
+        "ROLLING_MEAN_6",
+        "MONTH_NUMBER",
+        "MONTH_SIN",
+        "MONTH_COS"
+    ]
+}
